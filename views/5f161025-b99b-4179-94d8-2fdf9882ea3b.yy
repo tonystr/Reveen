@@ -8,7 +8,7 @@
         "b21f3a14-db0b-45c1-9360-e55f24c8762f"
     ],
     "filterType": "GMScript",
-    "folderName": "surfaces",
+    "folderName": "Surfaces",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

@@ -8,7 +8,7 @@
         "97f09aec-7d3d-444f-95b1-348363f5473a"
     ],
     "filterType": "GMScript",
-    "folderName": "grids",
+    "folderName": "Grids",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

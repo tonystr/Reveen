@@ -10,7 +10,7 @@
         "99b274d2-a87e-475c-b83c-5a4f715642fb"
     ],
     "filterType": "GMScript",
-    "folderName": "arrays",
+    "folderName": "Arrays",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

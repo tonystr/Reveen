@@ -10,7 +10,7 @@
         "b31576b5-2b73-4b90-bb98-39905ea40c6f"
     ],
     "filterType": "GMScript",
-    "folderName": "misc",
+    "folderName": "Misc",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

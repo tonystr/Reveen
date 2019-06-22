@@ -9,7 +9,7 @@
         "181de09f-a58d-4098-b117-46cb2da3a2bd"
     ],
     "filterType": "GMScript",
-    "folderName": "cleanup",
+    "folderName": "Cleanup",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

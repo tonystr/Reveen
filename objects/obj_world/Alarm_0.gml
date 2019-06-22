@@ -19,7 +19,7 @@ if (_lcc >= chunk_minload) {
 	
 		if ((_lcc >= chunk_maxload && (_x < _cam_left || _y < _cam_top || _x > _cam_right || _y > _cam_bottom)) || 
 			_x < _cam_left - 1 || _y < _cam_top - 1 || _x > _cam_right + 1 || _y > _cam_bottom + 1) {
-			chunk_save(_chunk);
+			chunk_save(_chunk, true);
 			ds_list_delete(chunks, i--);
 			log("Unloaded chunk x:", _x, "y:", _y, "i:", i);
 			_lcc--;

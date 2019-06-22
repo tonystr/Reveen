@@ -9,6 +9,7 @@ if (!file_exists(_fname)) {
 	_chunk = json_load(_fname);
 	_chunk[? "grid"] = base64_to_grid(_chunk[? "grid"]);
 }
+chunk_autotile(_chunk);
 ds_list_add(obj_world.chunks, _chunk);
 _chunk[? "modified"] = false;
 return _chunk;

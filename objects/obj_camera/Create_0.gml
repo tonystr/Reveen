@@ -4,9 +4,9 @@ singleton_assert();
 subpixels_enabled = true;
 drag_enabled = false;
 
-width = 272;
-height = 160;
-zoom = 4;
+width = 480;
+height = 270;
+zoom = 3;
 
 #region camera setup
 

@@ -1,16 +1,10 @@
-/// @func chunk_save(chunk)
+/// @func chunk_save(chunk, delete*)
 /// @arg chunk
 
-var _chunk = argument0;
+var _chunk  = argument[0];
+var _delete = argument[1];
 
 if (!_chunk[? "modified"]) return;
-
-var _grid = _chunk[? "grid"];
-_chunk[? "grid"] = grid_to_base64(_grid);
-ds_map_delete(_chunk, "modified");
-var _out = json_encode(_chunk);
-_chunk[? "grid"] = _grid;
-_chunk[? "modified"] = false;
 
 var _file = file_text_open_write(
 	obj_world.save_dir    + "/" + 
@@ -18,6 +12,10 @@ var _file = file_text_open_write(
 	string(_chunk[? "y"]) + ".chunk"
 );
 
-file_text_write_string(_file, _out);
+file_text_write_string(_file, chunk_encode(_chunk));
 file_text_close(_file);
-log("Wrote:", _out);
+
+if (_delete) {
+	ds_grid_destroy(_chunk[? "grid"]);
+	ds_map_destroy(_chunk);
+}

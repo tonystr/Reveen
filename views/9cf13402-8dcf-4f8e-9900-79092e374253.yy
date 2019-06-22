@@ -10,7 +10,7 @@
         "730c1a8d-4604-4ff7-9782-607e2a39821f"
     ],
     "filterType": "GMScript",
-    "folderName": "instances",
+    "folderName": "Instances",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

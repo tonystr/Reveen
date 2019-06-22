@@ -12,7 +12,7 @@
         "c103131e-ecad-48e0-9ce9-59c66647a58d"
     ],
     "filterType": "GMScript",
-    "folderName": "datastructures",
+    "folderName": "Datastructures",
     "isDefaultView": false,
     "localisedFolderName": ""
 }
