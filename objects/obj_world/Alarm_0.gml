@@ -21,6 +21,7 @@ if (_lcc >= chunk_minload) {
 			_x < _cam_left - 1 || _y < _cam_top - 1 || _x > _cam_right + 1 || _y > _cam_bottom + 1) {
 			chunk_save(_chunk);
 			ds_list_delete(chunks, i--);
+			log("Unloaded chunk x:", _x, "y:", _y, "i:", i);
 			_lcc--;
 		} 
 	}

@@ -1,8 +1,8 @@
 /// @desc follow target
 
 if (instance_exists(target)) {
-	x = lerp(x, target.x, .1);
-	y = lerp(y, target.y, .1);
+	x = lerp(x, target.x - width  / 2, .1);
+	y = lerp(y, target.y - height / 2, .1);
 }
 
 // toggle fullscreen

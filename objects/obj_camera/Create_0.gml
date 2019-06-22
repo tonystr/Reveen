@@ -4,9 +4,9 @@ singleton_assert();
 subpixels_enabled = true;
 drag_enabled = false;
 
-width = 480;
-height = 270;
-zoom = 3;
+width = 272;
+height = 160;
+zoom = 4;
 
 #region camera setup
 
@@ -29,7 +29,7 @@ event_user(0);
 
 #endregion;
 
-target = noone;
+target = obj_player;
 
 drag = false;
 drag_x = 0;
