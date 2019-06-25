@@ -21,15 +21,16 @@ with (obj_world) {
 	var _len = ds_list_size(chunks);
 	for (var i = 0; i < _len; i++) {
 		var _ci  = chunks[| i];
+		var _cig = _ci[? "grid"];
 		var _cix = _ci[? "x"];
 		var _ciy = _ci[? "y"];
 		
 		if (_ciy == _chunk_y) {
-			_cl = _cix == _chunk_x - 1 ? _ci : -1;
-			_cr = _cix == _chunk_x + 1 ? _ci : -1;
+			_cl = _cix == _chunk_x - 1 ? _cig : -1;
+			_cr = _cix == _chunk_x + 1 ? _cig : -1;
 		} else if (_cix == _chunk_x) {
-			_ct = _ciy == _chunk_y - 1 ? _ci : -1;
-			_cb = _ciy == _chunk_y + 1 ? _ci : -1;
+			_ct = _ciy == _chunk_y - 1 ? _cig : -1;
+			_cb = _ciy == _chunk_y + 1 ? _cig : -1;
 		}
 	}
 

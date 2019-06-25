@@ -1,5 +1,5 @@
 
-var _gui_size = sprite_get_width(spr_gui_tile);
+var _gui_size = sprite_get_width(spr_gui_tile) - 1;
 var _xoff = obj_camera.width - 32 - (obj_camera.x / (chunk_width * size)) * _gui_size;
 var _yoff = 18 - (obj_camera.y / (chunk_width * size)) * _gui_size;
 
