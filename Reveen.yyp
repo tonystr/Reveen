@@ -199,6 +199,14 @@
             }
         },
         {
+            "Key": "3c9dd4a8-83eb-49bd-b313-4c43091c4123",
+            "Value": {
+                "id": "59ac3574-c018-4f79-b61f-8c30267dc4cf",
+                "resourcePath": "sprites\\spr_player_idle\\spr_player_idle.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "3f2f70f1-5080-40de-a586-41b92bc234b3",
             "Value": {
                 "id": "5b55efff-c216-42ff-b734-d8d63927973b",
@@ -364,6 +372,14 @@
                 "id": "4e65ac0c-2885-4aca-b77a-43e1bdf5d85a",
                 "resourcePath": "tilesets\\tileset0\\tileset0.yy",
                 "resourceType": "GMTileSet"
+            }
+        },
+        {
+            "Key": "721eeba4-ef0a-408a-af96-f0599d84f0ea",
+            "Value": {
+                "id": "2cf91268-2e57-4910-900f-abb39ac6e845",
+                "resourcePath": "sprites\\spr_player_idle_sword\\spr_player_idle_sword.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -651,6 +667,14 @@
             "Value": {
                 "id": "d58b287c-2233-4115-8afe-bced573849d6",
                 "resourcePath": "views\\c5ec685a-64ce-4ba3-8849-51b3bcd9f533.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "c6ef15f3-fa52-4827-a44a-8940e72622f8",
+            "Value": {
+                "id": "603cd377-e929-4d17-ad78-6b552e7e7edf",
+                "resourcePath": "views\\c6ef15f3-fa52-4827-a44a-8940e72622f8.yy",
                 "resourceType": "GMFolder"
             }
         },
