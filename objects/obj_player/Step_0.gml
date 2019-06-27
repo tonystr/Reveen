@@ -1,8 +1,9 @@
 
 var _s = keyboard_check(vk_shift);
 
-xvel += (keyboard_check(ord("D")) - keyboard_check(ord("A"))) * (_s ? 3 : 1);
-yvel += (keyboard_check(ord("S")) - keyboard_check(ord("W"))) * (_s ? 3 : 1);
+xvel = (keyboard_check(ord("D")) - keyboard_check(ord("A"))) * (_s ? 5 : 3) - xvel * .2;
+
+yvel = yvel * .9 + keyboard_check_pressed(ord("W")) * -7 + .24;
 
 #region Horizontal movement
 
@@ -31,6 +32,3 @@ if (world_meeting(x, y + yvel)) {
 y += yvel;
 
 #endregion;
-
-xvel = 0;
-yvel = 0;
