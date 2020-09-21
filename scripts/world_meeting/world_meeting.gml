@@ -33,6 +33,4 @@ if (!_out) {
 x =	_start_x;
 y =	_start_y;
 
-log("smarkeytark", x);
-
 return _out;
